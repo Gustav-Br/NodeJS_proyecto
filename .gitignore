@@ -1,0 +1,23 @@
+# Ignorar el directorio node_modules
+node_modules/
+
+# Ignorar el archivo .env que contiene variables de entorno
+.env
+
+# Ignorar los archivos de registro
+logs/
+*.log
+
+# Ignorar archivos que se generan automáticamente
+coverage/
+dist/
+build/
+tmp/
+temp/
+out/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignorar archivos de configuración local
+config/local.js
